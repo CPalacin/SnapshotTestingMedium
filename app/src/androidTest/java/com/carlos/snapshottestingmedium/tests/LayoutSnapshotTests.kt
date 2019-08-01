@@ -28,8 +28,9 @@ class LayoutSnapshotTests(val layout: Int) {
 
     @Test
     @Throws(Throwable::class)
-    fun snapshotTest() {
+    fun testSnapshot() {
         val view = LayoutInflater.from(targetContext).inflate(layout, null, false) as FrameLayout
+        System.out.println("View class: " + view.javaClass.simpleName)
         ViewHelpers.setupView(view).setExactWidthPx(widthPixels).layout()
         Screenshot.snap(view).setName(layout.toString()).record()
     }

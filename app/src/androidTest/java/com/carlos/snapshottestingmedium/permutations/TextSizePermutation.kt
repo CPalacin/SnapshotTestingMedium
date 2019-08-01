@@ -1,5 +1,5 @@
 package com.carlos.snapshottestingmedium.permutations
 
-class TextSizePermutation : Permutation<String> {
-
-}
+//class TextSizePermutation : Permutation<String> {
+//
+//}
