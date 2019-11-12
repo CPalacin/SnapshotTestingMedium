@@ -31,7 +31,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textColor="@color/darkGrey"
-            android:textSize="16sp"
+            android:textSize="15sp"
             app:layout_constraintStart_toEndOf="@+id/userImage"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginStart="8dp"
@@ -58,7 +58,7 @@
             android:layout_marginTop="4dp"
             android:text="@string/age"
             android:textColor="@color/darkGrey"
-            android:textSize="16sp"
+            android:textSize="15sp"
             app:layout_constraintStart_toEndOf="@+id/userImage"
             app:layout_constraintTop_toBottomOf="@id/nameTag" />
 
@@ -83,7 +83,7 @@
             android:layout_marginTop="4dp"
             android:text="@string/description"
             android:textColor="@color/darkGrey"
-            android:textSize="16sp"
+            android:textSize="15sp"
             app:layout_constraintStart_toEndOf="@+id/userImage"
             app:layout_constraintTop_toBottomOf="@id/ageTag" />
 
